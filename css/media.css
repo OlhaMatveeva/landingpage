@@ -1,0 +1,209 @@
+
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+.home-phone {
+    float: left;
+	}
+ul.menuItem_1 {
+		margin: 0;
+		padding: 0;
+		display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+		float: none;
+	}
+.header_text,.wrapp-bg,.description_block,
+.sladeshow, .price, .Contact, .footer, .menu{
+	max-width : 1200px;
+}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.header_text,.wrapp-bg,.description_block,
+.sladeshow, .price, .Contact, .footer, .menu{
+  	max-width : 992px;
+  }
+ul.menuItem_1 {
+    display: none;
+    position: relative;
+  right: -110px;
+    background: #446c75;
+    top: 88px;
+    width: 680px;
+    float: right;
+}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+.header_text,.wrapp-bg,.description_block,
+.sladeshow, .price, .Contact, .footer{
+  max-width : 768px;
+}
+.description_text{
+  width:750px;
+	height: 115px;
+  line-height: 45px;
+  padding-top: 25px;
+}
+.description_text_1{
+  width:750px;
+  height: 155px;
+  padding-top: 15px;
+}
+.sladeshow{
+  display: none;
+}
+.price_text{
+  padding: 0;
+  height: 140px;
+}
+.price_wrap {
+    width: 750px;
+    height: 560px;
+    margin: 0px auto 0 auto;}
+.price_block {
+    width: 220px;
+    height: 452px;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    background: #fcfcfc;
+    display: block;
+    overflow: hidden;
+    margin: 0px 15px;
+  }
+.medium, .order, .professional, .order_1, .expert, .order_2{
+  width: 220px;
+}
+.price_text_3{
+   width: 750px;
+}
+.menu{
+  max-width : 768px;
+}
+.price {
+    margin: 0 auto;
+    height: 700px;
+    display: block;
+    position: relative;
+    background: #FFFFFF;
+}
+.contact_text {
+    width: 700px;
+    height: 130px;
+    margin: 0 auto;
+    padding: 45px 0px 10px 0px;
+}
+.form{
+  width: 420px;
+  height: 370px;
+  position: relative;
+  overflow: visible;
+  margin: 0px 0px 0px 20px;
+  font-family: "Lato", sans-serif;
+	font-size: 21px;
+	color: #fff;
+}
+.contact_wrap{
+    margin-top: 30px;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+  .contact_text_2{
+    width: 280px;
+    height: 370px;
+    position: relative;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 21px;
+    color: #98a0a5;
+}
+.soc_seti{
+  width: 768px;
+}
+.footer_text{
+  display: none;
+}
+ul.footer_menu_1{
+  width: 768px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+ul.footer_menu_1 li {
+  list-style-type: none;
+  float: left;
+  line-height: 80px;
+  margin: 0px;
+  padding: 0 25px 0 10px
+}
+ul.menuItem_1 {
+  display: none;
+  position: absolute;
+  right:0px;
+  background:  #446c75;
+  top: 130px;
+  width: 25%;
+  z-index: 10;
+}
+ul.menuItem_1 li {
+    list-style-type: none;
+    float: left;
+    line-height: 50px;
+    padding: 0 20px;
+}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  /*.menu{
+    min-width: 768px;
+  }
+}*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+  .menu ul{
+  	display: flex !important;
+  }
+
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
